@@ -16,4 +16,5 @@ basic.forever(function () {
         basic.pause(546)
     }
     datalogger.log(datalogger.createCV("146", 908))
+    datalogger.log(datalogger.createCV("146", game.createSprite(90, 89)))
 })
